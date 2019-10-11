@@ -90,8 +90,8 @@ http_archive(
 # Fetch rules_nodejs so we can install our npm dependencies
 http_archive(
     name = "build_bazel_rules_nodejs",
-    sha256 = "1db950bbd27fb2581866e307c0130983471d4c3cd49c46063a2503ca7b6770a4",
-    urls = ["https://github.com/bazelbuild/rules_nodejs/releases/download/0.29.0/rules_nodejs-0.29.0.tar.gz"],
+    sha256 = "1447312c8570e8916da0f5f415186e7098cdd4ce48e04b8e864f793c766959c3",
+    urls = ["https://github.com/bazelbuild/rules_nodejs/releases/download/0.38.2/rules_nodejs-0.38.2.tar.gz"],
 )
 
 # Fetch sass rules for compiling sass files
