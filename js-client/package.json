@@ -46,7 +46,7 @@
         "named-amd": "1.0.0",
         "protractor": "6.0.0",
         "ts-morph": "2.3.0",
-        "typescript": "3.4.5"
+        "typescript": "3.6.4"
     },
     "scripts": {
         "build": "bazel build //js-client/src:bundle",
